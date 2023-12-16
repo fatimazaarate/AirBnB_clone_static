@@ -20,7 +20,7 @@ button {
     margin-right: 30px;
 }
 
-.filters :hover {
+.filters button:hover {
     opacity: 90%;
     cursor: pointer;
 }
