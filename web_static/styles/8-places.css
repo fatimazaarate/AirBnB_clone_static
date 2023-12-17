@@ -73,7 +73,7 @@ article h2 {
     display: inline-block;
 }
 
-.user > p {
+.user p {
     margin-bottom: 0;
 }
 .places .description p {
