@@ -1,24 +1,27 @@
 .places h1 {
     font-size: 30px;
-    margin-bottom: 0;
+    width: 100%;
+    padding-left: 10px;
 }
 
 .places {
-    
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
 }
-.places article h2{
-    width: 390;
+
+article {
+    width: 390px;
     padding: 20px;
     margin: 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
-    display: flex;
-    justify-content: center;
 }
-/* h2:last-child {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto; 
-} */
+
+article h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
